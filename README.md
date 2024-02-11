@@ -8,7 +8,10 @@ This code creates a simple web application using Flask. Users can upload a PDF f
 pip install Flask
 
 Fitz module
+
 Pyzbar module
+
 Image module
+
 
 Enjoy!
