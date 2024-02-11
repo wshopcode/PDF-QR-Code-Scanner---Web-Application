@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Results</title>
+</head>
+<body>
+    <h1>QR Code Results</h1>
+    <ul>
+    {% for qr_code in qr_code_data %}
+        <li>
+            <p>Page: {{ qr_code['page'] }}, Image: {{ qr_code['image'] }}</p>
+            <p>Data: {{ qr_code['data'] }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
